@@ -146,6 +146,12 @@ body {
 .filter-button:hover {
   color: var(--secondary-text-color);
 }
+.post-button:hover,
+.post-button:focus {
+  background-color: var(--primary--button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 /* Logo */
 .logo {
   color: var(--accent-color);
